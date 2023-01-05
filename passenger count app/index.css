@@ -28,6 +28,9 @@ button {
 }
 
 #increment-btn{
+    background: rgb(70, 204, 66);
+}
+#decrement-btn{
     background: darkred;
 }
 

@@ -8,6 +8,13 @@ function increment() {
     count += 1
     countEL.innerText = count
 }
+function decrement() {
+    if(count != 0){
+        count -= 1
+        countEL.innerText = count
+    }
+    
+}
 
 savedCount = 'Previous entrise: '
 
