@@ -6,10 +6,12 @@
     <body>
         <h1>People entered:</h1>
         <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">Increment</button>
-        <button id="decrement-btn" onclick="decrement()">Decrement</button>
-        <button id="save-btn" onclick="save()">Save</button>
+        <button id="increment-btn" onclick="action(expr='increment',elementCountId='count-el')">Increment</button>
+        <button id="decrement-btn" onclick="action(expr='decrement',elementCountId='count-el')">Decrement</button>
+        <button id="save-btn" onclick="action(expr='save',elementCountId='count-el',elementSaveId='save-el')">Save</button>
         <h3 id="save-el">Previous entrise: </h3>
+        <h4 id="time-el">For Graph Please enter time period</h4>
+        <button id="time-btn" onclick="getTimePeriod()">Click here to give time period</button>
         <script src="index.js">
         </script>
     </body>
